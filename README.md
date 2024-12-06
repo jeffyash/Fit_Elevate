@@ -16,3 +16,7 @@
 - **Database**: Firebase Firestore
 - **State Management**: Provider
 - **Authentication**: Firebase Authentication
+
+## Screenshots
+![image alt](https://github.com/jeffyash/Fit_Elevate/blob/48f00e4f8111dea69b96b9e6088b916100f0e697/images/Screenshots/ob_1.jpg)
+![image alt](https://github.com/jeffyash/Fit_Elevate/blob/48f00e4f8111dea69b96b9e6088b916100f0e697/images/Screenshots/ob_2.jpg)
