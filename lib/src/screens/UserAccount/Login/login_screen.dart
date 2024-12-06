@@ -175,12 +175,12 @@ class _LoginPageState extends State<LoginPage> {
                     const SizedBox(height: 30),
                     ElevatedButton(
                       style: ButtonStyle(
-                        backgroundColor: MaterialStateProperty.all(
+                        backgroundColor: WidgetStatePropertyAll(
                             ColorConstants.primaryColor),
-                        shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                        shape: WidgetStatePropertyAll(RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(5.0),
                         )),
-                        padding: MaterialStateProperty.all(
+                        padding: WidgetStatePropertyAll(
                             const EdgeInsets.symmetric(
                                 horizontal: 75, vertical: 15)),
                       ),

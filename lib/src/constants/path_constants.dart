@@ -1,12 +1,6 @@
 class PathConstants {
-  //Splash screen
-  static const String logo = "images/FitElevatelogo.png";
-  static const String logoText = "images/fitElevateText.png";
-  static const String logoFE = "images/FITLO.png";
 
-
-
-
+  static const String logo="images/FitElevatelogo.png";
   // Onboarding
   static const String fitModel1 = "images/fitModel1.jpg";
   static const String fitModel2 = "images/fitModel2.jpg";

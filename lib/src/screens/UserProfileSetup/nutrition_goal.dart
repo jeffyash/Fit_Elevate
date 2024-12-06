@@ -84,11 +84,11 @@ class NutritionGoals extends StatelessWidget {
 
             ElevatedButton(
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(ColorConstants.primaryColor),
-                shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                backgroundColor: WidgetStatePropertyAll(ColorConstants.primaryColor),
+                shape: WidgetStatePropertyAll(RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(5.0),
                 )),
-                padding: MaterialStateProperty.all( const EdgeInsets.symmetric(horizontal: 75, vertical: 15)),
+                padding: WidgetStatePropertyAll( const EdgeInsets.symmetric(horizontal: 75, vertical: 15)),
               ),
               onPressed: (){
                 Navigator.pushAndRemoveUntil(

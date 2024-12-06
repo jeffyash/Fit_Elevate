@@ -158,11 +158,11 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
               const SizedBox(height: 30),
               ElevatedButton(
                 style: ButtonStyle(
-                  backgroundColor: MaterialStateProperty.all(ColorConstants.primaryColor),
-                  shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                  backgroundColor:WidgetStatePropertyAll(ColorConstants.primaryColor),
+                  shape: WidgetStatePropertyAll(RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(5.0),
                   )),
-                  padding: MaterialStateProperty.all(const EdgeInsets.symmetric(horizontal: 75, vertical: 15)),
+                  padding: WidgetStatePropertyAll(const EdgeInsets.symmetric(horizontal: 75, vertical: 15)),
                 ),
                 onPressed: _handleCreateAccount,
                 child: const Text(
@@ -185,12 +185,6 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                           child: Image.asset(PathConstants.google, width: 45,height: 45),
                         ),
                       ),
-                      // GestureDetector(
-                      //   onTap: () => AuthService().signInWithFacebook(context),
-                      //   child: ClipOval(
-                      //     child: Image.asset(PathConstants.facebook, width: 45, height: 45,),
-                      //   ),
-                      // ),
                       GestureDetector(
                         onTap: () {
                           setState(() {

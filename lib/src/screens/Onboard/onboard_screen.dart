@@ -13,7 +13,7 @@ class OnboardPage extends StatefulWidget {
 
 class _OnboardPageState extends State<OnboardPage> {
   int _currentIndex = 0;
-  final CarouselController _carouselController = CarouselController();
+  final CarouselSliderController _controller = CarouselSliderController();
 
   final List<String> _titles = [
     TextConstants.onboarding1Title,
@@ -45,7 +45,7 @@ class _OnboardPageState extends State<OnboardPage> {
       body: Stack(
         children: [
           CarouselSlider.builder(
-            carouselController: _carouselController,
+            carouselController: _controller,
             itemCount: _imageUrls.length,
             itemBuilder: (context, index, realIndex) {
               return Container(
@@ -132,7 +132,7 @@ class _OnboardPageState extends State<OnboardPage> {
                     MaterialPageRoute(builder: (context) => GetStarted()),
                   );
                 } else {
-                  _carouselController.nextPage();
+                  _controller.nextPage();
                 }
               },
               child: const Text("Next >>",

@@ -151,7 +151,7 @@ class DietPlanDetailPage extends StatelessWidget {
                     Center(
                       child: ElevatedButton(
                         style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all(ColorConstants.primaryColor),
+                          backgroundColor: WidgetStatePropertyAll(ColorConstants.primaryColor),
                         ),
                         onPressed: () {
                           Navigator.push(
