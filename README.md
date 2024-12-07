@@ -18,5 +18,7 @@
 - **Authentication**: Firebase Authentication
 
 ## Screenshots
-![image alt](https://github.com/jeffyash/Fit_Elevate/blob/48f00e4f8111dea69b96b9e6088b916100f0e697/images/Screenshots/ob_1.jpg)
-![image alt](https://github.com/jeffyash/Fit_Elevate/blob/48f00e4f8111dea69b96b9e6088b916100f0e697/images/Screenshots/ob_2.jpg)
+![image alt](https://github.com/jeffyash/Fit_Elevate/blob/2127817bea8a09b454401b7028125a6fe0a83dd5/splashscreen.png)
+![image alt](https://github.com/jeffyash/Fit_Elevate/blob/2127817bea8a09b454401b7028125a6fe0a83dd5/OnboardScreens.jpg)
+![image alt](https://github.com/jeffyash/Fit_Elevate/blob/2127817bea8a09b454401b7028125a6fe0a83dd5/HomeScreens.jpg)
+
