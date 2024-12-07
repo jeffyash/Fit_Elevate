@@ -17,8 +17,12 @@
 - **State Management**: Provider
 - **Authentication**: Firebase Authentication
 
-## Screenshots
+# Screenshots
+## Splash Screen
 ![image alt](https://github.com/jeffyash/Fit_Elevate/blob/48f0dac9cdfb294db2d5b1702e3cb75db85bce26/splashscreen.jpg)
+## OnboardScreen
 ![image alt](https://github.com/jeffyash/Fit_Elevate/blob/2127817bea8a09b454401b7028125a6fe0a83dd5/OnboardScreens.jpg)
+## Screens
+
 ![image alt](https://github.com/jeffyash/Fit_Elevate/blob/2127817bea8a09b454401b7028125a6fe0a83dd5/HomeScreens.jpg)
 
